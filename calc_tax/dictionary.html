@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- モバイル用：デバイス幅、拡大縮小禁止 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>辞典もどき</title>
+
+    <!-- jQuery -->
+    <script src="../lib/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../lib/common.css"><!-- 表示の微調整用 -->
+
+    <!-- 外部CSS/JavaScript -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="js/main4.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <h1>事典もどき</h1>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-3">
+                        犬
+                        <span class="exp">イヌ わんわんお</span>
+                    </div>
+                    <div class="col-xs-3">
+                        猫
+                        <span class="exp">ぬこ ねこ様</span>
+                    </div>
+                    <div class="col-xs-3">
+                        猿
+                        <span class="exp">サル　プロゴルファー猿</span>
+                    </div>
+                    <div class="col-xs-3">
+                        牛
+                        <span class="exp">ウシ 牛肉うまい</span>
+                    </div>
+                    <div class="col-xs-3">
+                        馬
+                        <span class="exp">ウマ ナリタブライアン</span>
+                    </div>
+                    <div class="col-xs-3">
+                        羊
+                        <span class="exp">ヒツジ ジンギスカン</span>
+                    </div>
+                    <div class="col-xs-3">
+                        鼠
+                        <span class="exp">鼠 千葉県のあのランド</span>
+                    </div>
+                    <div class="col-xs-3">
+                        兎
+                        <span class="exp">ウサギ ピーターラビ・・・</span>
+                    </div>
+
+                    <!-- text area -->
+                    <div class="form-group">
+                        <p class="control-lavel">説明</p>
+                        <textarea class="form-control" rows="5" id="expArea"></textarea>
+                        <span class="help-block">出典：Wikipedia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
